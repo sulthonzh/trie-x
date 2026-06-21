@@ -2,15 +2,38 @@
   "name": "trie-x",
   "version": "1.0.0",
   "description": "Zero-dependency trie (prefix tree) with autocomplete, wildcard search, longest prefix match, and serialization",
-  
   "main": "src/index.js",
-  "bin": { "trie-x": "src/cli.js" },
+  "bin": {
+    "trie-x": "src/cli.js"
+  },
   "scripts": {
     "test": "node --test test/index.test.js",
     "demo": "node src/cli.js demo"
   },
-  "keywords": ["trie", "prefix-tree", "autocomplete", "radix", "search", "data-structure"],
+  "keywords": [
+    "trie",
+    "prefix-tree",
+    "autocomplete",
+    "radix",
+    "search",
+    "data-structure"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
-  "repository": { "type": "git", "url": "git+https://github.com/sulthonzh/trie-x.git" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/trie-x.git"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/trie-x#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/trie-x/issues"
+  }
 }
